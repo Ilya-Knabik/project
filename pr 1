@@ -1,24 +1,42 @@
 class animal:
-    def __init__(self):
+    def init(self):
         self.name = 0
+        def name(self,q)
+            name=q
         self.age = 0
+        def age(self,q)
+            age=q
         self.health = 0
+        def health(self,q)
+            health = q
         self.hunger = 0
+        def hunger(self,q)
+            hunger = q
 
 cow = animal()
 cow.name = ""
 cow.age = 6
 cow.health = 100
 cow.hunger = 0
+cow.milk_yield = 10
+def give_milk(self)
+    milk_yield=0
+    
 
 pig = animal()
 pig.name = ""
 pig.age = 6
 pig.health = 100
 pig.hunger = 0
+pig.dirtness=100
+def clean(self)
+    dirtness=0
 
 chicken = animal()
 chicken.name = ""
 chicken.age = 6
 chicken.health = 100
 chicken.hunger = 0
+chicken.eggs = 2
+def lay_eggs(self)
+    chicken.eggs = 0
